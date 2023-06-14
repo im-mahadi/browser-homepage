@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #0a4d68, #076e7e, #04a7c0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .welcome-text {
+  font-family: cursive;
+  font-size: 2.5em;
+}
+
+form input {
+  margin-top: 6rem;
+  width: 500px;
+  padding: 1.1em;
+  border-radius: 2em;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.card-container {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2em;
+}
+
+.card {
+  background-color: white;
+  width: 100%;
+  border-radius: 1em;
+  padding-right: 1em;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.card p {
+  margin-top: 0.1em;
+}
+
+.card img {
+  width: 84px;
+  background: transparent;
+  padding: 1em;
+  border-radius: 1em;
+}
