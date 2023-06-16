@@ -5,7 +5,7 @@ Custom browser homepage built with html and css.
 ### Features
 1. Fast Startup
 2. Search Input with google search
-3. Most common websites with access
+3. Most common websites with easy access
 4. Easily Customizable
 
 
